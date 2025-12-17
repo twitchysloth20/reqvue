@@ -1,0 +1,31 @@
+{
+  "name": "reqvue",
+  "version": "1.0.0",
+  "author": "twitchysloth20",
+  "description": "Wrapper over @vueuse/core's createFetch to simplify API requests in Vue 3 applications.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": ["vue", "fetch", "api", "request", "typescript"],
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.6.1",
+    "@vitest/coverage-v8": "^4.0.16",
+    "eslint": "^9.39.1",
+    "express": "^5.2.1",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "peerDependencies": {
+    "@vueuse/core": "^14.1.0",
+    "vue": "^3.5.25"
+  }
+}
