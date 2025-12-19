@@ -1,6 +1,7 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
+  ignores: ['dist/**', 'node_modules/**', 'src/**/__tests__/**', '*.md'],
   rules: {
     'max-len': ['error', {
       code: 120,
@@ -10,7 +11,7 @@ export default antfu({
       ignoreTrailingComments: true,
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
-      ignoreTemplateLiterals: true
+      ignoreTemplateLiterals: true,
     }],
-  }
+  },
 })

@@ -12,7 +12,7 @@ Small TypeScript helper around createFetch (@vueuse/core) to define typed endpoi
 ## Quick start
 
 ```ts
-import { setApiConfig, defineEndpoint, reqvue } from './src/reqvue'
+import { defineEndpoint, reqvue, setApiConfig } from './src/reqvue'
 
 // set global API config
 setApiConfig({ base_url: 'http://localhost:3000', timeout: 10000 })
