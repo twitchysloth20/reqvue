@@ -4,6 +4,7 @@
   "packageManager": "pnpm@10.10.0",
   "description": "Wrapper over @vueuse/core's createFetch to simplify API requests in Vue 3 applications.",
   "author": "twitchysloth20",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/twitchysloth20/reqvue"
@@ -11,7 +12,6 @@
   "bugs": {
     "url": "https://github.com/twitchysloth20/reqvue/issues"
   },
-  "license": "MIT",
   "keywords": [
     "vue",
     "fetch",
